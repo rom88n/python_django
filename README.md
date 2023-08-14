@@ -1,15 +1,18 @@
-# generate project
-django-admin startproject <NAME>
+# Commands
 
-# create new app
-python manage.py startapp <NAME>
+## generate project
+```django-admin startproject <NAME>```
 
-# 
-python manage.py runserver
+## create new app
+```python manage.py startapp <NAME>```
 
-#
-python manage.py makemigrations
-./manage.py migrate
+## start server
+```python manage.py runserver```
 
-# create user
-python manage.py createsuperuser
+## migrations
+```python manage.py makemigrations```
+
+```./manage.py migrate```
+
+## create user
+```python manage.py createsuperuser```
